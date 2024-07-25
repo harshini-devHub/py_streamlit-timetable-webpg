@@ -1,0 +1,158 @@
+{
+    "weekStart": "2024-09-04",
+    "lunchTime": "12:35",
+    "lunchDurationInMin": 60,
+    "preLunch": 3,
+    "11H": {
+        "weekA": {
+            "mon": [
+                "Computer Science",
+                "Music",
+                "English",
+                "Maths",
+                "Biology"
+            ],
+            "tue": [
+                "Geography",
+                "Music",
+                "Maths",
+                "Computer Science",
+                "PE"
+            ],
+            "wed": [
+                "Music",
+                "French",
+                "Physics",
+                "Geography",
+                "English"
+            ],
+            "thur": [
+                "Physics",
+                "French",
+                "Maths",
+                "English",
+                "Chemistry"
+            ],
+            "fri": [
+                "Physics",
+                "Biology",
+                "French",
+                "Maths",
+                "English"
+            ]
+        },
+        "weekB": {
+            "mon": [
+                "Computer Science",
+                "Music",
+                "Biology",
+                "Chemistry",
+                "Maths"
+            ],
+            "tue": [
+                "Geography",
+                "English",
+                "Music",
+                "Computer Science",
+                "PE"
+            ],
+            "wed": [
+                "Maths",
+                "French",
+                "Geography",
+                "English",
+                "Chemistry"
+            ],
+            "thur": [
+                "French",
+                "Geography",
+                "English",
+                "Maths",
+                "Biology"
+            ],
+            "fri": [
+                "English",
+                "PE",
+                "Computer Science",
+                "Physics",
+                "Chemistry"
+            ]
+        }
+    },
+    "11G": {
+        "weekA": {
+            "mon": [
+                "RS",
+                "Art",
+                "English",
+                "Maths",
+                "Biology"
+            ],
+            "tue": [
+                "History",
+                "Art",
+                "Maths",
+                "RS",
+                "PE"
+            ],
+            "wed": [
+                "Art",
+                "German",
+                "Physics",
+                "History",
+                "English"
+            ],
+            "thur": [
+                "Physics",
+                "German",
+                "Maths",
+                "English",
+                "Chemistry"
+            ],
+            "fri": [
+                "Physics",
+                "Biology",
+                "German",
+                "Maths",
+                "English"
+            ]
+        },
+        "weekB": {
+            "mon": [
+                "RS",
+                "Art",
+                "Biology",
+                "Chemistry",
+                "Maths"
+            ],
+            "tue": [
+                "RS",
+                "English",
+                "Art",
+                "History",
+                "PE"
+            ],
+            "wed": [
+                "Maths",
+                "German",
+                "History",
+                "English",
+                "Chemistry"
+            ],
+            "thur": [
+                "German",
+                "History",
+                "English",
+                "Maths",
+                "Biology"
+            ],
+            "fri": [
+                "English",
+                "PE",
+                "RS",
+                "Physics",
+                "Chemistry"
+            ]
+        }
+    }
+}
