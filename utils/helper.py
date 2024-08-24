@@ -17,7 +17,7 @@ def get_timetable(s_class: str, ip_date: str) -> dict:
 
     # Read the timetable from the file
     timetable: dict
-    with open("../timetable.json", "r", encoding="utf-8") as f:
+    with open("timetable.json", "r", encoding="utf-8") as f:
         timetable = json.load(f)
 
     # Find out what the week type is
@@ -74,7 +74,3 @@ def get_week_type(start_date: str, input_date: str) -> str:
     output = "weekA" if remainder < 7 else "weekB"
 
     return output
-
-
-op = get_timetable("11H", "2024-01-04")
-print(json.dumps(op, indent=4))
