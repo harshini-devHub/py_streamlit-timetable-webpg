@@ -1,39 +1,61 @@
 {
-    "weekStart": "2024-09-04",
-    "lunchTime": "12:35",
+    "weekStart": "2024-08-05",
+    "firstPeriod": "Registration",
+    "periodsBreak": 1,
+    "lunchBreak": 3,
+    "startTimes": [
+        "08:40",
+        "09:10",
+        "10:10",
+        "10:30",
+        "11:35",
+        "12:35",
+        "13:35",
+        "14:40"
+    ],
+    "durations": [
+        "25 mins",
+        "60 mins",
+        "20 mins",
+        "60 mins",
+        "60 mins",
+        "60 mins",
+        "60 mins",
+        "60 mins"
+    ],
     "lunchDurationInMin": 60,
     "preLunch": 3,
     "11H": {
-        "weekA": {
-            "mon": [
+        "week A": {
+            "Monday": [
                 "Computer Science",
                 "Music",
                 "English",
                 "Maths",
                 "Biology"
             ],
-            "tue": [
+            "Tuesday": [
                 "Geography",
                 "Music",
                 "Maths",
                 "Computer Science",
                 "PE"
             ],
-            "wed": [
+            "Wednesday": [
                 "Music",
                 "French",
                 "Physics",
                 "Geography",
                 "English"
             ],
-            "thu": [
+            "Thursday": [
                 "Physics",
                 "French",
                 "Maths",
                 "English",
                 "Chemistry"
             ],
-            "fri": [
+            "Friday": [
                 "Physics",
                 "Biology",
                 "French",
@@ -41,36 +63,36 @@
                 "English"
             ]
         },
-        "weekB": {
-            "mon": [
+        "week B": {
+            "Monday": [
                 "Computer Science",
                 "Music",
                 "Biology",
                 "Chemistry",
                 "Maths"
             ],
-            "tue": [
+            "Tuesday": [
                 "Geography",
                 "English",
                 "Music",
                 "Computer Science",
                 "PE"
             ],
-            "wed": [
+            "Wednesday": [
                 "Maths",
                 "French",
                 "Geography",
                 "English",
                 "Chemistry"
             ],
-            "thu": [
+            "Thursday": [
                 "French",
                 "Geography",
                 "English",
                 "Maths",
                 "Biology"
             ],
-            "fri": [
+            "Friday": [
                 "English",
                 "PE",
                 "Computer Science",
@@ -80,22 +102,22 @@
         }
     },
     "11G": {
-        "weekA": {
-            "mon": [
+        "week A": {
+            "Monday": [
                 "RS",
                 "Art",
                 "English",
                 "Maths",
                 "Biology"
             ],
-            "tue": [
+            "Tuesday": [
                 "History",
                 "Art",
                 "Maths",
                 "RS",
                 "PE"
             ],
-            "wed": [
+            "Wednesday": [
                 "Art",
                 "German",
                 "Physics",
@@ -109,7 +131,7 @@
                 "English",
                 "Chemistry"
             ],
-            "fri": [
+            "Friday": [
                 "Physics",
                 "Biology",
                 "German",
@@ -117,22 +139,22 @@
                 "English"
             ]
         },
-        "weekB": {
-            "mon": [
+        "week B": {
+            "Monday": [
                 "RS",
                 "Art",
                 "Biology",
                 "Chemistry",
                 "Maths"
             ],
-            "tue": [
+            "Tuesday": [
                 "RS",
                 "English",
                 "Art",
                 "History",
                 "PE"
             ],
-            "wed": [
+            "Wednesday": [
                 "Maths",
                 "German",
                 "History",
@@ -146,7 +168,7 @@
                 "Maths",
                 "Biology"
             ],
-            "fri": [
+            "Friday": [
                 "English",
                 "PE",
                 "RS",

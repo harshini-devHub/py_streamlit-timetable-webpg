@@ -17,7 +17,7 @@ def get_timetable(s_class: str, ip_date: str) -> dict:
 
     # Read the timetable from the file
     timetable: dict
-    with open("../timetable.json", "r", encoding="utf-8") as f:
+    with open("timetable.json", "r", encoding="utf-8") as f:
         timetable = json.load(f)
 
     # Find out what the week type is
@@ -31,8 +31,17 @@ def get_timetable(s_class: str, ip_date: str) -> dict:
     # Create output dict
     output["week"] = week_type
     output["day"] = day
-    output["subjects"] = timetable[s_class][week_type][day]
+    output["startTimes"] = timetable["startTimes"]
+    output["durations"] = timetable["durations"]
+    subjects: list = timetable[s_class][week_type][day]
 
+    subjects.insert(timetable["periodsBreak"], "--- Break ---")
+    subjects.insert(timetable["lunchBreak"] + 1, "--- Lunch ---")
+
+    if "firstPeriod" in timetable:
+        subjects.insert(0, "Registration")
+
+    output["subjects"] = subjects
     return output
 
 
@@ -49,7 +58,15 @@ def get_day(input_date: str) -> str:
 
     i_date = dt.strptime(input_date, "%Y-%m-%d")
     day: int = i_date.weekday()
-    days_list: list = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+    days_list: list = [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+    ]
     output: str = days_list[day]
 
     return output
@@ -71,10 +88,6 @@ def get_week_type(start_date: str, input_date: str) -> str:
     # print(days_difference)
 
     remainder = days_difference % 14
-    output = "weekA" if remainder < 7 else "weekB"
+    output = "week A" if remainder < 7 else "week B"
 
     return output
-
-
-op = get_timetable("11H", "2024-01-04")
-print(json.dumps(op, indent=4))
