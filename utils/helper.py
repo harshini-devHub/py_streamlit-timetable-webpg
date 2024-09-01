@@ -4,7 +4,7 @@ import json
 from datetime import datetime as dt
 
 
-def get_timetable(s_class: str, ip_date: str) -> dict:
+def get_timetable(s_name: str, ip_date: str) -> dict:
     """this sub-routine takes user's class and date and outputs week and subjects for the day
     Args:
         s_class (str): Students class name
@@ -33,7 +33,7 @@ def get_timetable(s_class: str, ip_date: str) -> dict:
     output["day"] = day
     output["startTimes"] = timetable["startTimes"]
     output["durations"] = timetable["durations"]
-    subjects: list = timetable[s_class][week_type][day]
+    subjects: list = timetable[s_name][week_type][day]
 
     subjects.insert(timetable["periodsBreak"], "--- Break ---")
     subjects.insert(timetable["lunchBreak"] + 1, "--- Lunch ---")
