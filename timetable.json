@@ -25,155 +25,155 @@
     ],
     "lunchDurationInMin": 60,
     "preLunch": 3,
-    "11H": {
+    "Harshini": {
         "week A": {
             "Monday": [
-                "Computer Science",
-                "Music",
-                "English",
+                "Physics",
                 "Maths",
-                "Biology"
+                "Computer Science",
+                "Maths",
+                "FREE PERIOD"
             ],
             "Tuesday": [
-                "Geography",
-                "Music",
+                "FREE PERIOD",
                 "Maths",
-                "Computer Science",
-                "PE"
+                "FREE PERIOD",
+                "FREE PERIOD",
+                "Physics"
             ],
             "Wednesday": [
-                "Music",
-                "French",
+                "Computer Science",
                 "Physics",
-                "Geography",
-                "English"
+                "Maths",
+                "Maths",
+                "FREE PERIOD"
             ],
             "Thursday": [
                 "Physics",
-                "French",
+                "Computer Science",
                 "Maths",
-                "English",
-                "Chemistry"
+                "FREE PERIOD",
+                "Maths"
             ],
             "Friday": [
-                "Physics",
-                "Biology",
-                "French",
                 "Maths",
-                "English"
+                "Computer Science",
+                "FREE PERIOD",
+                "Physics",
+                "Maths"
             ]
         },
         "week B": {
             "Monday": [
                 "Computer Science",
-                "Music",
-                "Biology",
-                "Chemistry",
+                "Maths",
+                "Physics",
+                "FREE PERIOD",
                 "Maths"
             ],
             "Tuesday": [
-                "Geography",
-                "English",
-                "Music",
-                "Computer Science",
-                "PE"
-            ],
-            "Wednesday": [
-                "Maths",
-                "French",
-                "Geography",
-                "English",
-                "Chemistry"
-            ],
-            "Thursday": [
-                "French",
-                "Geography",
-                "English",
-                "Maths",
-                "Biology"
-            ],
-            "Friday": [
-                "English",
-                "PE",
+                "FREE PERIOD",
                 "Computer Science",
                 "Physics",
-                "Chemistry"
+                "Maths",
+                "FREE PERIOD"
+            ],
+            "Wednesday": [
+                "FREE PERIOD",
+                "Maths",
+                "Physics",
+                "Computer Science",
+                "Maths"
+            ],
+            "Thursday": [
+                "FREE PERIOD",
+                "Maths",
+                "Maths",
+                "Computer Science",
+                "Physics"
+            ],
+            "Friday": [
+                "Maths",
+                "Physics",
+                "FREE PERIOD",
+                "Computer Science",
+                "Maths"
             ]
         }
     },
-    "11G": {
+    "Ginika": {
         "week A": {
             "Monday": [
-                "RS",
-                "Art",
-                "English",
                 "Maths",
+                "FREE PERIOD",
+                "Chemistry",
+                "PE Studies",
                 "Biology"
             ],
             "Tuesday": [
-                "History",
-                "Art",
-                "Maths",
-                "RS",
-                "PE"
+                "Biology",
+                "PE Studies",
+                "Chemistry",
+                "Biology",
+                "Maths"
             ],
             "Wednesday": [
-                "Art",
-                "German",
-                "Physics",
-                "History",
-                "English"
-            ],
-            "thur": [
-                "Physics",
-                "German",
+                "Chemistry",
                 "Maths",
-                "English",
-                "Chemistry"
+                "PE Studies",
+                "PE",
+                "PE"
+            ],
+            "Thursday": [
+                "Maths",
+                "Chemistry",
+                "FREE PERIOD",
+                "Biology",
+                "PE Studies"
             ],
             "Friday": [
-                "Physics",
+                "PE Studies",
+                "Chemistry",
                 "Biology",
-                "German",
                 "Maths",
-                "English"
+                "FREE PERIOD"
             ]
         },
         "week B": {
             "Monday": [
-                "RS",
-                "Art",
+                "Chemistry",
+                "FREE PERIOD",
+                "Maths",
                 "Biology",
+                "PE Studies"
+            ],
+            "Tuesday": [
+                "Biology",
+                "Chemistry",
+                "Maths",
+                "FREE PERIOD",
+                "FREE PERIOD"
+            ],
+            "Wednesday": [
+                "Biology",
+                "PE Studies",
+                "Maths",
+                "Chemistry",
+                "FREE PERIOD"
+            ],
+            "Thursday": [
+                "Biology",
+                "PE Studies",
+                "FREE PERIOD",
                 "Chemistry",
                 "Maths"
             ],
-            "Tuesday": [
-                "RS",
-                "English",
-                "Art",
-                "History",
-                "PE"
-            ],
-            "Wednesday": [
-                "Maths",
-                "German",
-                "History",
-                "English",
-                "Chemistry"
-            ],
-            "thur": [
-                "German",
-                "History",
-                "English",
-                "Maths",
-                "Biology"
-            ],
             "Friday": [
-                "English",
-                "PE",
-                "RS",
-                "Physics",
-                "Chemistry"
+                "PE Studies",
+                "Maths",
+                "Biology",
+                "Chemistry",
+                "FREE PERIOD"
             ]
         }
     }

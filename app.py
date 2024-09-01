@@ -3,10 +3,13 @@ import streamlit as st
 
 import utils.helper as h
 
-st.title("CCHS Timetable Organiser")
+st.title(":violet[Timetable Organiser]:tulip:")
 
-class_name = st.selectbox("Select your class: ", ("11H", "11G"))
-st.write("You have selected:", class_name)
+
+student_name = st.selectbox(
+    "Select the student's name: ", ("Harshini", "Vinay", "Ginika", "Kartik")
+)
+st.write("You have selected:", student_name)
 
 date_input = st.date_input("Select the date:")
 i_date = dt.strptime(str(date_input), "%Y-%m-%d")
@@ -14,7 +17,7 @@ i_date = dt.strptime(str(date_input), "%Y-%m-%d")
 if i_date.weekday() >= 5:
     st.write("It's a weekend")
 else:
-    schedule: dict = h.get_timetable(str(class_name), str(date_input))
+    schedule: dict = h.get_timetable(str(student_name), str(date_input))
     #    st.write(schedule)
 
     st.write(
