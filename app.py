@@ -1,12 +1,21 @@
 from datetime import datetime as dt
 import streamlit as st
-
+import json
 import utils.helper as h
 
 st.title(":violet[Timetable Organiser]:tulip:")
 
 
-student_name = st.selectbox("Select the student's name: ", ("Harshini", "Ginika"))
+# Get the student name from the Timetable json and create a list
+students: list = []
+timetable_json: dict
+with open("timetable.json", "r", encoding="utf-8") as f:
+    timetable_json = json.load(f)
+for s in timetable_json["students"]:
+    students.append(s["name"])
+
+# pass that list to the streamlit selectbox
+student_name = st.selectbox("Select the student's name: ", students)
 st.write("You have selected:", student_name)
 
 date_input = st.date_input("Select the date:")
