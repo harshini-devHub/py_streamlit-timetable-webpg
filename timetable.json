@@ -1,180 +1,210 @@
 {
-    "weekStart": "2024-08-05",
-    "firstPeriod": "Registration",
-    "periodsBreak": 1,
-    "lunchBreak": 3,
-    "startTimes": [
-        "08:40",
-        "09:10",
-        "10:10",
-        "10:30",
-        "11:35",
-        "12:35",
-        "13:35",
-        "14:40"
-    ],
-    "durations": [
-        "25 mins",
-        "60 mins",
-        "20 mins",
-        "60 mins",
-        "60 mins",
-        "60 mins",
-        "60 mins",
-        "60 mins"
-    ],
-    "lunchDurationInMin": 60,
-    "preLunch": 3,
-    "Harshini": {
-        "week A": {
-            "Monday": [
-                "Physics",
-                "Maths",
-                "Computer Science",
-                "Maths",
-                "FREE PERIOD"
+    "students": [
+        {
+            "name": "Harshini",
+            "weekStart": "2024-08-05",
+            "firstPeriod": "Registration",
+            "periodsBreak": 1,
+            "lunchBreak": 3,
+            "lunchDurationInMin": 60,
+            "preLunch": 3,
+            "startTimes": [
+                "08:40",
+                "09:10",
+                "10:10",
+                "10:30",
+                "11:35",
+                "12:35",
+                "13:35",
+                "14:40"
             ],
-            "Tuesday": [
-                "FREE PERIOD",
-                "Maths",
-                "FREE PERIOD",
-                "FREE PERIOD",
-                "Physics"
+            "durations": [
+                "25 mins",
+                "60 mins",
+                "20 mins",
+                "60 mins",
+                "60 mins",
+                "60 mins",
+                "60 mins",
+                "60 mins"
             ],
-            "Wednesday": [
-                "Computer Science",
-                "Physics",
-                "Maths",
-                "Maths",
-                "FREE PERIOD"
-            ],
-            "Thursday": [
-                "Physics",
-                "Computer Science",
-                "Maths",
-                "FREE PERIOD",
-                "Maths"
-            ],
-            "Friday": [
-                "Maths",
-                "Computer Science",
-                "FREE PERIOD",
-                "Physics",
-                "Maths"
-            ]
+            "week A": {
+                "Monday": [
+                    "Physics",
+                    "Maths",
+                    "Computer Science",
+                    "Maths",
+                    "FREE PERIOD"
+                ],
+                "Tuesday": [
+                    "FREE PERIOD",
+                    "Maths",
+                    "FREE PERIOD",
+                    "FREE PERIOD",
+                    "Physics"
+                ],
+                "Wednesday": [
+                    "Computer Science",
+                    "Physics",
+                    "Maths",
+                    "Maths",
+                    "FREE PERIOD"
+                ],
+                "Thursday": [
+                    "Physics",
+                    "Computer Science",
+                    "Maths",
+                    "FREE PERIOD",
+                    "Maths"
+                ],
+                "Friday": [
+                    "Maths",
+                    "Computer Science",
+                    "FREE PERIOD",
+                    "Physics",
+                    "Maths"
+                ]
+            },
+            "week B": {
+                "Monday": [
+                    "Computer Science",
+                    "Maths",
+                    "Physics",
+                    "FREE PERIOD",
+                    "Maths"
+                ],
+                "Tuesday": [
+                    "FREE PERIOD",
+                    "Computer Science",
+                    "Physics",
+                    "Maths",
+                    "FREE PERIOD"
+                ],
+                "Wednesday": [
+                    "FREE PERIOD",
+                    "Maths",
+                    "Physics",
+                    "Computer Science",
+                    "Maths"
+                ],
+                "Thursday": [
+                    "FREE PERIOD",
+                    "Maths",
+                    "Maths",
+                    "Computer Science",
+                    "Physics"
+                ],
+                "Friday": [
+                    "Maths",
+                    "Physics",
+                    "FREE PERIOD",
+                    "Computer Science",
+                    "Maths"
+                ]
+            }
         },
-        "week B": {
-            "Monday": [
-                "Computer Science",
-                "Maths",
-                "Physics",
-                "FREE PERIOD",
-                "Maths"
+        {
+            "name": "Ginika",
+            "weekStart": "2024-08-05",
+            "firstPeriod": "Registration",
+            "periodsBreak": 1,
+            "lunchBreak": 3,
+            "lunchDurationInMin": 60,
+            "preLunch": 3,
+            "startTimes": [
+                "08:40",
+                "09:10",
+                "10:10",
+                "10:30",
+                "11:35",
+                "12:35",
+                "13:35",
+                "14:40"
             ],
-            "Tuesday": [
-                "FREE PERIOD",
-                "Computer Science",
-                "Physics",
-                "Maths",
-                "FREE PERIOD"
+            "durations": [
+                "25 mins",
+                "60 mins",
+                "20 mins",
+                "60 mins",
+                "60 mins",
+                "60 mins",
+                "60 mins",
+                "60 mins"
             ],
-            "Wednesday": [
-                "FREE PERIOD",
-                "Maths",
-                "Physics",
-                "Computer Science",
-                "Maths"
-            ],
-            "Thursday": [
-                "FREE PERIOD",
-                "Maths",
-                "Maths",
-                "Computer Science",
-                "Physics"
-            ],
-            "Friday": [
-                "Maths",
-                "Physics",
-                "FREE PERIOD",
-                "Computer Science",
-                "Maths"
-            ]
+            "week A": {
+                "Monday": [
+                    "Maths",
+                    "FREE PERIOD",
+                    "Chemistry",
+                    "PE Studies",
+                    "Biology"
+                ],
+                "Tuesday": [
+                    "Biology",
+                    "PE Studies",
+                    "Chemistry",
+                    "Biology",
+                    "Maths"
+                ],
+                "Wednesday": [
+                    "Chemistry",
+                    "Maths",
+                    "PE Studies",
+                    "PE",
+                    "PE"
+                ],
+                "Thursday": [
+                    "Maths",
+                    "Chemistry",
+                    "FREE PERIOD",
+                    "Biology",
+                    "PE Studies"
+                ],
+                "Friday": [
+                    "PE Studies",
+                    "Chemistry",
+                    "Biology",
+                    "Maths",
+                    "FREE PERIOD"
+                ]
+            },
+            "week B": {
+                "Monday": [
+                    "Chemistry",
+                    "FREE PERIOD",
+                    "Maths",
+                    "Biology",
+                    "PE Studies"
+                ],
+                "Tuesday": [
+                    "Biology",
+                    "Chemistry",
+                    "Maths",
+                    "FREE PERIOD",
+                    "FREE PERIOD"
+                ],
+                "Wednesday": [
+                    "Biology",
+                    "PE Studies",
+                    "Maths",
+                    "Chemistry",
+                    "FREE PERIOD"
+                ],
+                "Thursday": [
+                    "Biology",
+                    "PE Studies",
+                    "FREE PERIOD",
+                    "Chemistry",
+                    "Maths"
+                ],
+                "Friday": [
+                    "PE Studies",
+                    "Maths",
+                    "Biology",
+                    "Chemistry",
+                    "FREE PERIOD"
+                ]
+            }
         }
-    },
-    "Ginika": {
-        "week A": {
-            "Monday": [
-                "Maths",
-                "FREE PERIOD",
-                "Chemistry",
-                "PE Studies",
-                "Biology"
-            ],
-            "Tuesday": [
-                "Biology",
-                "PE Studies",
-                "Chemistry",
-                "Biology",
-                "Maths"
-            ],
-            "Wednesday": [
-                "Chemistry",
-                "Maths",
-                "PE Studies",
-                "PE",
-                "PE"
-            ],
-            "Thursday": [
-                "Maths",
-                "Chemistry",
-                "FREE PERIOD",
-                "Biology",
-                "PE Studies"
-            ],
-            "Friday": [
-                "PE Studies",
-                "Chemistry",
-                "Biology",
-                "Maths",
-                "FREE PERIOD"
-            ]
-        },
-        "week B": {
-            "Monday": [
-                "Chemistry",
-                "FREE PERIOD",
-                "Maths",
-                "Biology",
-                "PE Studies"
-            ],
-            "Tuesday": [
-                "Biology",
-                "Chemistry",
-                "Maths",
-                "FREE PERIOD",
-                "FREE PERIOD"
-            ],
-            "Wednesday": [
-                "Biology",
-                "PE Studies",
-                "Maths",
-                "Chemistry",
-                "FREE PERIOD"
-            ],
-            "Thursday": [
-                "Biology",
-                "PE Studies",
-                "FREE PERIOD",
-                "Chemistry",
-                "Maths"
-            ],
-            "Friday": [
-                "PE Studies",
-                "Maths",
-                "Biology",
-                "Chemistry",
-                "FREE PERIOD"
-            ]
-        }
-    }
+    ]
 }

@@ -16,9 +16,14 @@ def get_timetable(s_name: str, ip_date: str) -> dict:
     output: dict = {}
 
     # Read the timetable from the file
-    timetable: dict
+    timetable_json: dict
     with open("timetable.json", "r", encoding="utf-8") as f:
-        timetable = json.load(f)
+        timetable_json = json.load(f)
+
+    timetable = {}
+    for s in timetable_json["students"]:
+        if s["name"] == s_name:
+            timetable = s
 
     # Find out what the week type is
     week_type: str = get_week_type(
@@ -33,7 +38,7 @@ def get_timetable(s_name: str, ip_date: str) -> dict:
     output["day"] = day
     output["startTimes"] = timetable["startTimes"]
     output["durations"] = timetable["durations"]
-    subjects: list = timetable[s_name][week_type][day]
+    subjects: list = timetable[week_type][day]
 
     subjects.insert(timetable["periodsBreak"], "--- Break ---")
     subjects.insert(timetable["lunchBreak"] + 1, "--- Lunch ---")
@@ -91,3 +96,6 @@ def get_week_type(start_date: str, input_date: str) -> str:
     output = "week A" if remainder < 7 else "week B"
 
     return output
+
+
+print(json.dumps(get_timetable("Harshini", "2024-09-04"), indent=4))

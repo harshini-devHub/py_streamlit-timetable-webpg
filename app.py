@@ -6,9 +6,7 @@ import utils.helper as h
 st.title(":violet[Timetable Organiser]:tulip:")
 
 
-student_name = st.selectbox(
-    "Select the student's name: ", ("Harshini", "Vinay", "Ginika", "Kartik")
-)
+student_name = st.selectbox("Select the student's name: ", ("Harshini", "Ginika"))
 st.write("You have selected:", student_name)
 
 date_input = st.date_input("Select the date:")
